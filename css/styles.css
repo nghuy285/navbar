@@ -42,8 +42,12 @@ header{
     background-color: white;
     transition: .3s;
 }
-
+.navbar a:hover{
+    color: seagreen;
+    transition: .3s;
+}
 .navbar a:hover::before{
+    background-color: seagreen;
     width: 100%;
 }
 
